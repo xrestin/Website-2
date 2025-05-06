@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+body{
+background-color: #9b5ff4;
+background: linear-gradient(to right, #e2e2e2, #9f63f9);
+position: relative;
+z-index: -1;
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+.Phon{
+background-color: #ffffff;
+border-radius: 30px;
+width: 700px;
+min-height: 400px;
+max-width: 100%;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.35);
+margin-left: 25%;
+padding-left: 40px;
+margin-top: 175px;
+padding-top: 50px;
+position: relative;
+overflow: hidden;
+z-index: 2;
+}
+.headd{
+padding-left: 100px;
+}
+.ot{
+    padding-left: 76px;
+    color: #595959;
+    font-size: 12px;
+}
+.ott{
+    padding-left: 90px;
+    color: #595959;
+    font-size: 12px;
+}
+.icon{
+margin-left: 8px;
+width: 25px;
+height: auto;
+border: 2px solid #afafaf;
+border-radius: 20%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+margin-top: 6px;
+
+}
+.icon1{
+margin-left: 85px;
+}
+.Pasmail{
+background-color: #e6e4e4;
+display: flex;
+border: none;
+margin: 12px;
+padding: 10px 15px;
+width: 300px;
+border-radius: 8px;
+text-align: left;
+}
+.Pasmail:hover{
+background-color: #acacac;
+cursor: pointer;
+}
+.Submit{
+    background-color: #6502d6;
+    display: flex;
+    border: none;
+    margin: 12px;
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 8px;
+    margin-left: 80px;
+    color: #ffffff;
+    padding-left: 50px;
+}
+.Submit:hover{
+background-color:#300264 ;
+cursor: pointer;
+}
+.Pasmail:active{
+    background-color: #acacac;
+}
+.rightbackground{
+    background-color: #6502d6;
+    position: absolute;
+    top: 175px;
+    left: 50%;
+    width: 351px;
+    height: 400px;
+    overflow: hidden;
+    transition: all 0,6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+}
+.Phon.rightbackground{
+transform: translateX(-100%);
+}
+.toggle{
+}
+.Phon {
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 60px;
+}
+.sidetext{
+    position: absolute;
+    right: 70px;
+    bottom: 240px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+.sidetext2{
+    position: absolute;
+    right: 47px;
+    bottom: 220px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sidetext3{
+    position: absolute;
+    right: 90px;
+}
+.Register{
+    background-color: #6502d6;
+    color: #ffffff;
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: #ffffff;
+}
